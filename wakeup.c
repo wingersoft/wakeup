@@ -1,6 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <unistd.h>
- 
+
+//
+// Wake up USB Harddisk every 60 seconds - hg 2022-1024
+// 
+
 int main()
 {
     while (1)

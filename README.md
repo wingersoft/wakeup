@@ -1,6 +1,6 @@
 ## wakeup Harddisk
 
-A C program to wakeup USB Harddisk every 60 seconds.
+C program to wake up a USB Harddisk every 60 seconds.
 
 ### Files
     wakeup.c
