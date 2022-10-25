@@ -9,10 +9,11 @@ int main()
 {
     while (1)
     {
+        // replay path with the location of your hard disk
         FILE *fp = fopen("/media/hans/HD-EXT/wakeup.txt", "w");
         if (fp != NULL)
         {
-            fputs("Wakeup HD!\n", fp);
+            fputs("", fp);
             fclose(fp);
         }
         for (int i = 0; i < 60; i++)
