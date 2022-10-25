@@ -2,14 +2,14 @@
 #include <unistd.h>
 
 //
-// Wake up USB Harddisk every 60 seconds - hg 2022-1024
+// Wake up an USB Harddisk every 60 seconds - hg 2022-1025
 // 
 
 int main()
 {
     while (1)
     {
-        // replay path with the location of your hard disk
+        // replace path with the location of your hard disk
         FILE *fp = fopen("/media/hans/HD-EXT/wakeup.txt", "w");
         if (fp != NULL)
         {
